@@ -1,28 +1,21 @@
 {
-    "name": "sayhello"
-    ,
-    "version": "1.0.0"
-    ,
-    "description": "A web application which says hello"
-    ,
-    "main": "index.js"
-    ,
+    "name": "sayhello",
+    "version": "1.0.0",
+    "description": "A web application which says hello",
+    "main": "index.js",
     "scripts": {
-    "lint": "jshint index.js"
-    ,
-    "start": "node index.js"
+        "lint": "jshint index.js",
+        "start": "node index.js"
     },
-    "author": ""
-    ,
-    "license": "ISC"
-    ,
+    "author": "",
+    "license": "ISC",
     "engines": {
-    "node": "19"
+        "node": "19"
     },
     "devDependencies": {
-    "jshint": "^2.13.6"
+        "jshint": "^2.13.6"
     },
     "jshintConfig": {
-    "esversion": 6
+        "esversion": 6
     }
-}
+  }
